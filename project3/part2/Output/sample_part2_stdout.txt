@@ -1,0 +1,86 @@
+===== DUCK PARK SIMULATION (Part 2) =====
+- #passengers: 10, #cars: 2, capacity: 3, wait: 5, ride: 3
+[Time: 00:00:01] Passenger 6 finished exploring, heading to ticket booth
+[Time: 00:00:01] Passenger 6 waiting in ticket queue
+[Time: 00:00:01] Passenger 6 acquired a ticket
+[Time: 00:00:01] Passenger 6 joined the ride queue
+[Time: 00:00:01] Car 2 invoked load()
+[Time: 00:00:01] Passenger 6 boarded Car 2
+[Time: 00:00:01] Car 2 departed for its run
+[Time: 00:00:02] Passenger 9 finished exploring, heading to ticket booth
+[Time: 00:00:02] Passenger 9 waiting in ticket queue
+[Time: 00:00:02] Passenger 9 acquired a ticket
+[Time: 00:00:02] Passenger 9 joined the ride queue
+[Time: 00:00:02] Car 1 invoked load()
+[Time: 00:00:02] Passenger 9 boarded Car 1
+[Time: 00:00:02] Car 1 departed for its run
+[Time: 00:00:03] Passenger 4 finished exploring, heading to ticket booth
+[Time: 00:00:03] Passenger 4 waiting in ticket queue
+[Time: 00:00:03] Passenger 4 acquired a ticket
+[Time: 00:00:03] Passenger 4 joined the ride queue
+[Time: 00:00:04] Passenger 8 finished exploring, heading to ticket booth
+[Time: 00:00:04] Passenger 8 waiting in ticket queue
+[Time: 00:00:04] Passenger 8 acquired a ticket
+[Time: 00:00:04] Passenger 8 joined the ride queue
+[Time: 00:00:04] Passenger 10 finished exploring, heading to ticket booth
+[Time: 00:00:04] Passenger 10 waiting in ticket queue
+[Time: 00:00:04] Passenger 10 acquired a ticket
+[Time: 00:00:04] Passenger 10 joined the ride queue
+[Time: 00:00:04] Car 2 finished its run
+[Time: 00:00:04] Car 2 invoked unload()
+[Time: 00:00:04] Car 2 invoked load()
+[Time: 00:00:04] Passenger 4 boarded Car 2
+[Time: 00:00:04] Passenger 4 unboarded Car 2
+[Time: 00:00:04] Passenger 6 unboarded Car 2
+[Time: 00:00:04] Passenger 9 unboarded Car 1
+[Time: 00:00:04] Passenger 8 boarded Car 2
+[Time: 00:00:04] Passenger 8 unboarded Car 2
+[Time: 00:00:04] Passenger 10 boarded Car 2
+[Time: 00:00:04] Passenger 10 unboarded Car 2
+[Time: 00:00:04] Car 2 departed for its run
+[Time: 00:00:05] Passenger 1 finished exploring, heading to ticket booth
+[Time: 00:00:05] Passenger 1 waiting in ticket queue
+[Time: 00:00:05] Passenger 1 acquired a ticket
+[Time: 00:00:05] Passenger 1 joined the ride queue
+[Time: 00:00:05] Car 1 finished its run
+[Time: 00:00:05] Car 1 invoked unload()
+[Time: 00:00:05] Car 1 invoked load()
+[Time: 00:00:05] Passenger 1 boarded Car 1
+[Time: 00:00:05] Passenger 1 unboarded Car 1
+[Time: 00:00:05] Car 1 departed for its run
+[Time: 00:00:06] Passenger 5 finished exploring, heading to ticket booth
+[Time: 00:00:06] Passenger 5 waiting in ticket queue
+[Time: 00:00:06] Passenger 5 acquired a ticket
+[Time: 00:00:06] Passenger 5 joined the ride queue
+[Time: 00:00:06] Passenger 7 finished exploring, heading to ticket booth
+[Time: 00:00:06] Passenger 7 waiting in ticket queue
+[Time: 00:00:06] Passenger 7 acquired a ticket
+[Time: 00:00:06] Passenger 7 joined the ride queue
+[Time: 00:00:07] Passenger 2 finished exploring, heading to ticket booth
+[Time: 00:00:07] Passenger 2 waiting in ticket queue
+[Time: 00:00:07] Passenger 2 acquired a ticket
+[Time: 00:00:07] Passenger 2 joined the ride queue
+[Time: 00:00:07] Car 2 finished its run
+[Time: 00:00:07] Car 2 invoked unload()
+[Time: 00:00:07] Car 2 invoked load()
+[Time: 00:00:07] Passenger 5 boarded Car 2
+[Time: 00:00:07] Passenger 5 unboarded Car 2
+[Time: 00:00:07] Passenger 7 boarded Car 2
+[Time: 00:00:07] Passenger 7 unboarded Car 2
+[Time: 00:00:07] Passenger 2 boarded Car 2
+[Time: 00:00:07] Passenger 2 unboarded Car 2
+[Time: 00:00:07] Car 2 departed for its run
+[Time: 00:00:08] Car 1 finished its run
+[Time: 00:00:08] Car 1 invoked unload()
+[Time: 00:00:10] Passenger 3 finished exploring, heading to ticket booth
+[Time: 00:00:10] Passenger 3 waiting in ticket queue
+[Time: 00:00:10] Passenger 3 acquired a ticket
+[Time: 00:00:10] Passenger 3 joined the ride queue
+[Time: 00:00:10] Car 1 invoked load()
+[Time: 00:00:10] Passenger 3 boarded Car 1
+[Time: 00:00:10] Passenger 3 unboarded Car 1
+[Time: 00:00:10] Car 1 departed for its run
+[Time: 00:00:10] Car 2 finished its run
+[Time: 00:00:10] Car 2 invoked unload()
+[Time: 00:00:13] Car 1 finished its run
+[Time: 00:00:13] Car 1 invoked unload()

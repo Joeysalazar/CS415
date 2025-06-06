@@ -1,0 +1,55 @@
+==4127278== Memcheck, a memory error detector
+==4127278== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4127278== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==4127278== Command: ./park -n 1 -c 1 -p 1 -w 2 -r 2
+==4127278== 
+===== DUCK PARK SIMULATION =====
+[Monitor] Simulation started with parameters:
+- Number of passenger threads: 1
+- Number of cars: 1
+- Capacity per car: 1
+- Park exploration time: 1-10 seconds
+- Car waiting period: 2 seconds
+- Ride duration: 2 seconds
+
+
+[Monitor] System State at 00:00:05
+Ticket Queue: 0
+Ride Queue: 0
+Car 1 Status: WAITING (0/1 passengers)
+Passengers in park: 1 (1 exploring, 0 in queues, 0 on rides)
+
+[Time: 00:00:07] Passenger 1 finished exploring, heading to ticket booth
+[Time: 00:00:07] Passenger 1 waiting in ticket queue
+[Time: 00:00:07] Passenger 1 acquired a ticket
+[Time: 00:00:07] Passenger 1 joined the ride queue
+[Time: 00:00:07] Car 1 invoked load()
+[Time: 00:00:07] Passenger 1 boarded Car 1
+[Time: 00:00:07] Car 1 departed for its run
+[Time: 00:00:09] Car 1 finished its run
+[Time: 00:00:09] Car 1 invoked unload()
+[Time: 00:00:09] Passenger 1 unboarded Car 1
+
+[Monitor] System State at 00:00:10
+Ticket Queue: 0
+Ride Queue: 0
+Car 1 Status: WAITING (0/1 passengers)
+Passengers in park: 0 (0 exploring, 0 in queues, 0 on rides)
+
+
+[Monitor] FINAL STATISTICS:
+Total simulation time: 00:00:10
+Total passengers served: 1
+Total rides completed: 1
+Average wait time in ticket queue: N/A
+Average wait time in ride queue: N/A
+Average car utilization: N/A
+==4127278== 
+==4127278== HEAP SUMMARY:
+==4127278==     in use at exit: 0 bytes in 0 blocks
+==4127278==   total heap usage: 6 allocs, 6 frees, 9,016 bytes allocated
+==4127278== 
+==4127278== All heap blocks were freed -- no leaks are possible
+==4127278== 
+==4127278== For lists of detected and suppressed errors, rerun with: -s
+==4127278== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,6 @@
+[Car] Invoking load()
+[Passenger] Boarded the car
+[Car] Running with 1 passenger(s)
+[Car] Invoking unload()
+[Passenger] Unboarded the car
+Simulation (Part 1) complete.

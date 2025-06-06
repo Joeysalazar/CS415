@@ -1,0 +1,20 @@
+==4143800== Memcheck, a memory error detector
+==4143800== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4143800== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==4143800== Command: ./park -n 1 -c 1 -p 1 -w 2 -r 2
+==4143800== 
+[Car] Invoking load()
+[Passenger] Boarded the car
+[Car] Running with 1 passenger(s)
+[Car] Invoking unload()
+[Passenger] Unboarded the car
+Simulation (Part 1) complete.
+==4143800== 
+==4143800== HEAP SUMMARY:
+==4143800==     in use at exit: 0 bytes in 0 blocks
+==4143800==   total heap usage: 3 allocs, 3 frees, 8,736 bytes allocated
+==4143800== 
+==4143800== All heap blocks were freed -- no leaks are possible
+==4143800== 
+==4143800== For lists of detected and suppressed errors, rerun with: -s
+==4143800== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
